@@ -1,0 +1,764 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>ventilation documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	    <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">ventilation documentation</a>
+            <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+            <div id="book-search-input" role="search">
+                <input type="text" placeholder="Type to search">
+            </div>
+            <nav>
+            
+                <ul class="list">
+            
+                    <li class="title">
+                        <a href="../">ventilation documentation</a>
+                    </li>
+            
+                    <li class="divider"></li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../"><span class="fa fa-home"></span>Getting started</a>
+                        <ul class="links">
+                                <li class="link">
+                                    <a href="../" ><span class="fa fa-file-text-o"></span>README</a>
+                                </li>
+                                <li class="link">
+                                    <a 
+                                        
+                                         href="../overview.html" 
+                                         href="../overview.html" 
+                                        >
+                                        <span class="fa fa-th"></span>Overview
+                                    </a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="./modules.html" >
+                            <span class="fa fa-archive"></span>
+                            <span>Modules</span>
+                            <span class="menu-toggler fa fa-angle-up" data-toggle="collapse"
+                                    data-target="#xs-modules-links"
+                            ></span>
+                        </a>
+                        <ul class="links collapse in"
+                                id="xs-modules-links"
+                            >
+                                <li class="link">
+                                    <a href="../modules/AppModule.html" >AppModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../modules/AppRoutingModule.html" >AppRoutingModule</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple">
+                            <span class="fa fa-cogs"></span>
+                            <span>Components</span>
+                            <span class="menu-toggler fa fa-angle-up" data-toggle="collapse"
+                                    data-target="#xs-components-links"
+                                ></span>
+                        </div>
+                        <ul class="links collapse in"
+                                id="xs-components-links"
+                            >
+                                <li class="link">
+                                    <a href="../components/AddrezzComponent.html" >AddrezzComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/AppComponent.html" >AppComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/DashComponent.html" >DashComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/NotUsedComponent.html" >NotUsedComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/RoomComponent.html"  class="active" >RoomComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/RoomsComponent.html" >RoomsComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/Slider.html" >Slider</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/WrapperDataFormatingComponent.html" >WrapperDataFormatingComponent</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <div class="simple">
+                            <span class="fa fa-file-code-o"></span>
+                            <span>Classes</span>
+                            <span class="menu-toggler fa fa-angle-up" data-toggle="collapse"
+                                    data-target="#xs-classes-links"
+                                ></span>
+                        </div>
+                        <ul class="links collapse in"
+                                id="xs-classes-links"
+                            >
+                                <li class="link">
+                                    <a href="../classes/RoomService.html" >RoomService</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+            
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../miscellaneous.html" ><span class="fa fa-cubes"></span>Miscellaneous</a>
+                    </li>
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                    </li>
+            
+                    <li class="divider"></li>
+                    <li class="copyright">
+                            Documentation generated using <a href="https://compodoc.github.io/compodoc/" target="_blank">
+                                        <img src="..//images/compodoc-vectorise.svg" class="img-responsive">
+                            </a>
+                    </li>
+            
+                </ul>
+            
+            </nav>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <nav>
+                   
+                       <ul class="list">
+                   
+                           <li class="title">
+                               <a href="../">ventilation documentation</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                   
+                               <div id="book-search-input" role="search">
+                                   <input type="text" placeholder="Type to search">
+                               </div>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../"><span class="fa fa-home"></span>Getting started</a>
+                               <ul class="links">
+                                       <li class="link">
+                                           <a href="../" ><span class="fa fa-file-text-o"></span>README</a>
+                                       </li>
+                                       <li class="link">
+                                           <a 
+                                               
+                                                href="../overview.html" 
+                                                href="../overview.html" 
+                                               >
+                                               <span class="fa fa-th"></span>Overview
+                                           </a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="./modules.html" >
+                                   <span class="fa fa-archive"></span>
+                                   <span>Modules</span>
+                                   <span class="menu-toggler fa fa-angle-up" data-toggle="collapse"
+                                           data-target="#modules-links"
+                                   ></span>
+                               </a>
+                               <ul class="links collapse in"
+                                       id="modules-links"
+                   >
+                                       <li class="link">
+                                           <a href="../modules/AppModule.html" >AppModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../modules/AppRoutingModule.html" >AppRoutingModule</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple">
+                                   <span class="fa fa-cogs"></span>
+                                   <span>Components</span>
+                                   <span class="menu-toggler fa fa-angle-up" data-toggle="collapse"
+                                           data-target="#components-links"
+                   ></span>
+                               </div>
+                               <ul class="links collapse in"
+                                       id="components-links"
+                   >
+                                       <li class="link">
+                                           <a href="../components/AddrezzComponent.html" >AddrezzComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/AppComponent.html" >AppComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/DashComponent.html" >DashComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/NotUsedComponent.html" >NotUsedComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/RoomComponent.html"  class="active" >RoomComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/RoomsComponent.html" >RoomsComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/Slider.html" >Slider</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/WrapperDataFormatingComponent.html" >WrapperDataFormatingComponent</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple">
+                                   <span class="fa fa-file-code-o"></span>
+                                   <span>Classes</span>
+                                   <span class="menu-toggler fa fa-angle-up" data-toggle="collapse"
+                                           data-target="#classes-links"
+                   ></span>
+                               </div>
+                               <ul class="links collapse in"
+                                       id="classes-links"
+                   >
+                                       <li class="link">
+                                           <a href="../classes/RoomService.html" >RoomService</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                   
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../miscellaneous.html" ><span class="fa fa-cubes"></span>Miscellaneous</a>
+                           </li>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                           <li class="copyright">
+                                   Documentation generated using <a href="https://compodoc.github.io/compodoc/" target="_blank">
+                                               <img src="..//images/compodoc-vectorise.svg" class="img-responsive">
+                                   </a>
+                           </li>
+                   
+                       </ul>
+                   
+                   </nav>
+               </div>
+               <div class="content component">
+                   <div class="content-data">
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>RoomComponent</li>
+</ol>
+
+
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#infos" id="infos-tab" role="tab" data-toggle="tab">Infos</a>
+        </li>
+        <li>
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab">Source</a>
+        </li>
+    </ul>
+
+    <div class="tab-content">
+        <div class="tab-pane fade active in" id="infos"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/room.component.ts</code>
+</p>
+
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>room</code></td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-3">styles</td>
+                <td class="col-md-9"><code>
+ .media {
+ margin-bottom: 20px;
+ }
+ </code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">template</td>
+                <td class="col-md-9"><code>&nbsp;&lt;div&nbsp;*ngIf&#x3D;&quot;this.showProduct&#x3D;&#x3D;1&quot;&gt;<br>&nbsp;&lt;div&nbsp;class&#x3D;&quot;media&quot;&gt;<br>&nbsp;&lt;div&nbsp;class&#x3D;&quot;media-left&quot;&gt;<br>&nbsp;&lt;a&nbsp;href&#x3D;&quot;#&quot;&gt;<br>&nbsp;&lt;/a&gt;<br>&nbsp;&lt;br&gt;<br>&nbsp;&lt;/div&gt;<br><br>&nbsp;&lt;div&nbsp;class&#x3D;&quot;container&quot;&gt;<br>&nbsp;&lt;div&nbsp;class&#x3D;&quot;row&quot;&nbsp;style&#x3D;&quot;well&nbsp;well-sm&quot;&gt;<br>&nbsp;&nbsp;&nbsp;&lt;div&nbsp;class&#x3D;&quot;col&quot;&nbsp;&nbsp;&nbsp;&gt;<br>&nbsp;&nbsp;&nbsp;&lt;img&nbsp;class&#x3D;&quot;media-object&quot;&nbsp;src&#x3D;&quot;{{&nbsp;data.imageUrl&nbsp;}}&quot;&nbsp;style&#x3D;&quot;width:&nbsp;150px;&nbsp;height:&nbsp;150px&quot;&gt;<br>&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>&nbsp;&nbsp;&nbsp;&lt;div&nbsp;class&#x3D;&quot;col&quot;&nbsp;style&#x3D;&quot;border-radius:&nbsp;5px;&nbsp;background:&nbsp;#73AD21&quot;&gt;<br>&nbsp;&nbsp;&nbsp;&lt;h4&nbsp;class&#x3D;&quot;media-heading&quot;&gt;<br>&nbsp;&nbsp;&nbsp;{{&nbsp;data.roomName&nbsp;}}<br>&nbsp;&nbsp;&nbsp;&lt;/h4&gt;<br>&nbsp;&nbsp;&nbsp;&lt;data<br>&nbsp;&nbsp;&nbsp;[temperature]&#x3D;&quot;data.temperature&quot;<br>&nbsp;&nbsp;&nbsp;[humidity]&#x3D;&quot;data.humidity&quot;&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/data&gt;<br>&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br><br>&nbsp;&lt;/div&gt;<br><br>&nbsp;&lt;div&nbsp;class&#x3D;&quot;row&quot;&gt;<br>&nbsp;&lt;div&nbsp;class&#x3D;&quot;col&quot;&gt;<br>&nbsp;&lt;h4&nbsp;class&#x3D;&quot;media-heading&quot;&gt;<br><br>&nbsp;&lt;/h4&gt;<br><br>&nbsp;&lt;h4&nbsp;class&#x3D;&quot;media-heading&quot;&gt;<br>&nbsp;{{&nbsp;data.description&nbsp;}}<br>&nbsp;&lt;/h4&gt;<br>&nbsp;&lt;/div&gt;<br>&nbsp;&lt;/div&gt;<br><br><br>&nbsp;&lt;div&nbsp;class&#x3D;&quot;row&quot;&gt;<br><br>&nbsp;&nbsp;&nbsp;&lt;div&nbsp;class&#x3D;&quot;col&quot;&gt;<br><br>&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>&nbsp;&nbsp;&nbsp;&lt;div&nbsp;class&#x3D;&quot;col&quot;&nbsp;style&#x3D;&quot;border-radius:&nbsp;5px;&nbsp;background:&nbsp;#ccff99&quot;&gt;<br>&nbsp;&nbsp;&nbsp;&lt;div&nbsp;*ngIf&#x3D;&quot;show&#x3D;&#x3D;1&quot;&gt;<br>&nbsp;&nbsp;&nbsp;&lt;slider&nbsp;&nbsp;&nbsp;(modifiedRoomData_Event)&#x3D;&quot;modifyRoom($event)&quot;<br>&nbsp;&nbsp;&nbsp;[room]&#x3D;&quot;data.roomName&quot;<br>&nbsp;&nbsp;&nbsp;[temperature]&#x3D;&quot;data.temperature&quot;<br>&nbsp;&nbsp;&nbsp;[humidity]&#x3D;&quot;data.humidity&quot;&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/slider&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>&nbsp;&nbsp;&nbsp;&lt;div&nbsp;class&#x3D;&quot;col&quot;&gt;<br>&nbsp;&nbsp;&nbsp;&lt;div&nbsp;*ngIf&#x3D;&quot;show&#x3D;&#x3D;1&quot;&gt;<br>&nbsp;&nbsp;&nbsp;&lt;mat-slide-toggle&nbsp;[(ngModel)]&#x3D;&quot;toggled&quot;&nbsp;(change)&#x3D;&quot;onChange($event)&quot;&nbsp;style&#x3D;&quot;height:30%;&nbsp;position:absolute;&nbsp;bottom:10px;&quot;&gt;Saved&lt;/mat-slide-toggle&gt;<br>&nbsp;&nbsp;&nbsp;&lt;div&gt;{{toggled}}&lt;/div&gt;<br>&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>&nbsp;&lt;/div&gt;<br><br>&nbsp;&lt;/div&gt;<br>&lt;/div&gt;<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>&nbsp;&lt;div&nbsp;class&#x3D;&quot;media-body&quot;&gt;<br>&lt;div&nbsp;class&#x3D;&quot;media-body&quot;&gt;<br><br><br><br><br><br><br><br><br><br><br>&lt;/div&gt;<br>&nbsp;&lt;/div&gt;<br>&nbsp;&lt;/div&gt;<br>&nbsp;&lt;/div&gt;<br><br><br><br><br></code></td>
+            </tr>
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+        <h3 id="inputs">Inputs</h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-2">
+                            <code>data</code>
+                        </td>
+                        <td class="col-md-10">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-2">
+                            <code>show</code>
+                        </td>
+                        <td class="col-md-10">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+    </section>
+
+    <section>
+        <h3 id="outputs">Outputs</h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-2">
+                            <code>updatedRoomData_Event</code>
+                        </td>
+                        <td class="col-md-10">
+                            <em><code>$event</code> type:</em>    <code><a href="https://angular.io/docs/ts/latest/api/core/index/EventEmitter-class.html" target="_blank" >EventEmitter</a></code>
+
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+    </section>
+
+    <section>
+        <h3 id="constructor">Constructor</h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <code>constructor()</code>
+                        </td>
+                    </tr>
+    
+                </tbody>
+            </table>
+    </section>
+
+    <section>
+        <h3 id="methods">Methods</h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> onChange</b>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    <code>onChange($event: any)</code>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-description">
+                                    <b>Returns: </b>    <code>void</code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> modifyRoom</b>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    <code>modifyRoom(modifiedRoomData: object)</code>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-description">
+                                    <b>Returns: </b>    <code>void</code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+    </section>
+
+    <section>
+        <h3 id="inputs">Properties</h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> isValid</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <code>isValid:     <code>boolean</code>
+    </bcode>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Default value: </i><code>false</code>
+                            </td>
+                        </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> showProduct</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <code>showProduct:     <code>number</code>
+    </bcode>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Default value: </i><code>1</code>
+                            </td>
+                        </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> toggled</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <code>toggled:     <code>any</code>
+    </bcode>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+    </section>
+</div>
+        <div class="tab-pane fade tab-source-code" id="source">
+            <pre><code class="hljs javascript">import {Component, Input} from &#x27;@angular/core&#x27;;
+import { NotUsedComponent } from &#x27;./notused.component&#x27;;
+import { WrapperDataFormatingComponent } from &#x27;./wrapperDataFormating.component&#x27;;
+import { Slider} from &#x27;./slider.component&#x27;;
+import { Output, EventEmitter } from &#x27;@angular/core&#x27;;
+
+
+
+@Component({
+ selector: &#x27;room&#x27;,
+ template: &#x60;
+ &lt;div *ngIf&#x3D;&quot;this.showProduct&#x3D;&#x3D;1&quot;&gt;
+ &lt;div class&#x3D;&quot;media&quot;&gt;
+ &lt;div class&#x3D;&quot;media-left&quot;&gt;
+ &lt;a href&#x3D;&quot;#&quot;&gt;
+ &lt;/a&gt;
+ &lt;br&gt;
+ &lt;/div&gt;
+
+ &lt;div class&#x3D;&quot;container&quot;&gt;
+ &lt;div class&#x3D;&quot;row&quot; style&#x3D;&quot;well well-sm&quot;&gt;
+   &lt;div class&#x3D;&quot;col&quot;   &gt;
+   &lt;img class&#x3D;&quot;media-object&quot; src&#x3D;&quot;{{ data.imageUrl }}&quot; style&#x3D;&quot;width: 150px; height: 150px&quot;&gt;
+   &lt;/div&gt;
+   &lt;div class&#x3D;&quot;col&quot; style&#x3D;&quot;border-radius: 5px; background: #73AD21&quot;&gt;
+   &lt;h4 class&#x3D;&quot;media-heading&quot;&gt;
+   {{ data.roomName }}
+   &lt;/h4&gt;
+   &lt;data
+   [temperature]&#x3D;&quot;data.temperature&quot;
+   [humidity]&#x3D;&quot;data.humidity&quot;&gt;
+    &lt;/data&gt;
+   &lt;/div&gt;
+
+ &lt;/div&gt;
+
+ &lt;div class&#x3D;&quot;row&quot;&gt;
+ &lt;div class&#x3D;&quot;col&quot;&gt;
+ &lt;h4 class&#x3D;&quot;media-heading&quot;&gt;
+ 
+ &lt;/h4&gt;
+
+ &lt;h4 class&#x3D;&quot;media-heading&quot;&gt;
+ {{ data.description }}
+ &lt;/h4&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+
+
+ &lt;div class&#x3D;&quot;row&quot;&gt;
+ 
+   &lt;div class&#x3D;&quot;col&quot;&gt;
+
+   &lt;/div&gt;
+   &lt;div class&#x3D;&quot;col&quot; style&#x3D;&quot;border-radius: 5px; background: #ccff99&quot;&gt;
+   &lt;div *ngIf&#x3D;&quot;show&#x3D;&#x3D;1&quot;&gt;
+   &lt;slider   (modifiedRoomData_Event)&#x3D;&quot;modifyRoom($event)&quot;
+   [room]&#x3D;&quot;data.roomName&quot;
+   [temperature]&#x3D;&quot;data.temperature&quot;
+   [humidity]&#x3D;&quot;data.humidity&quot;&gt;
+    &lt;/slider&gt;
+    &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div class&#x3D;&quot;col&quot;&gt;
+   &lt;div *ngIf&#x3D;&quot;show&#x3D;&#x3D;1&quot;&gt;
+   &lt;mat-slide-toggle [(ngModel)]&#x3D;&quot;toggled&quot; (change)&#x3D;&quot;onChange($event)&quot; style&#x3D;&quot;height:30%; position:absolute; bottom:10px;&quot;&gt;Saved&lt;/mat-slide-toggle&gt;
+   &lt;div&gt;{{toggled}}&lt;/div&gt;
+   &lt;/div&gt;
+ &lt;/div&gt;
+
+ &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+ &lt;div class&#x3D;&quot;media-body&quot;&gt;
+&lt;div class&#x3D;&quot;media-body&quot;&gt;
+
+
+
+
+
+
+
+ 
+
+
+&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+
+
+
+
+ &#x60;,
+ styles: [&#x60;
+ .media {
+ margin-bottom: 20px;
+ }
+ &#x60;]
+})
+export class RoomComponent {
+ @Input() data;
+ @Input() show;
+
+ @Output() updatedRoomData_Event &#x3D; new EventEmitter&lt;object&gt;();
+
+ isValid &#x3D; false;
+ toggled;
+ showProduct&#x3D;1;
+
+ constructor(){
+
+    console.log(&quot;555 DATA&quot;,this.data);
+  console.log(&quot;555 show&quot;,this.show);
+  //console.log(&quot;555 show&quot;,this.visibility);
+  //console.log(&quot;555 visibilityw&quot;,visibility);
+  //&lt;img class&#x3D;&quot;media-object&quot; src&#x3D;&quot;src/app/Room_Images/IMG_20201026_120629.jpg&quot;&gt;
+  // {{ data.releasedDate }}
+}
+
+
+
+onChange($event: any) {
+  console.log(&quot;Event: &quot;,$event);
+  console.log(&quot;toggled: &quot;,this.toggled);
+  this.showProduct&#x3D;(this.toggled&#x3D;&#x3D;true,1,0);
+}
+
+ modifyRoom(modifiedRoomData: object) {
+    //this.items.push(newItem);
+    console.log(&quot;modified Room Data: &quot;,modifiedRoomData);
+    this.updatedRoomData_Event.emit(modifiedRoomData);
+  }
+ 
+
+
+//import {MatSlideToggleModule} from &#x27;@angular/material/slide-toggle&#x27;;
+
+ /*
+ &lt;div class&#x3D;&quot;media&quot;&gt;
+ &lt;div class&#x3D;&quot;media-left&quot;&gt;
+ &lt;a href&#x3D;&quot;#&quot;&gt;
+ &lt;img class&#x3D;&quot;media-object&quot; src&#x3D;&quot;{{ data.imageUrl }}&quot;&gt;
+ &lt;/a&gt;
+ &lt;/div&gt;
+ &lt;div class&#x3D;&quot;media-body&quot;&gt;
+&lt;div class&#x3D;&quot;media-body&quot;&gt;
+ &lt;h4 class&#x3D;&quot;media-heading&quot;&gt;
+ {{ data.productName }}
+ &lt;/h4&gt;
+ {{ data.releasedDate }}
+ &lt;rating22
+[rating-value]&#x3D;&quot;data.rating&quot;
+[numOfReviews]&#x3D;&quot;data.numOfReviews&quot;&gt;
+ &lt;/rating22&gt;
+ &lt;br&gt;
+ {{ data.description }}
+&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+
+  &lt;!--
+show:
+{{show}}
+  --&gt;
+
+ */
+
+
+} </code></pre>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+           </div>
+       </div>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/search/search.js"></script>
+       <script src="../js/search/lunr.min.js"></script>
+       <script src="../js/search/search-lunr.js"></script>
+
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/highlight.pack.js"></script>
+       <script src="../js/libs/highlightjs-line-numbers.min.js"></script>
+       <script src="../js/search/search_index.js"></script>
+       <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                hljs.initHighlightingOnLoad();
+                hljs.initLineNumbersOnLoad();
+            });
+       </script>
+
+    </body>
+</html>
